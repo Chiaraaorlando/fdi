@@ -1,0 +1,655 @@
+{
+	"info": {
+		"_postman_id": "a90e7d87-a73d-47d1-a60d-0b378acf6ba0",
+		"name": "api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/cuadros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadros",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/usd/12350",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12350,\n\t\"title\":\"Juanito laguna lleva comida a su padre\",\n\t\"author\":\"Antonio Berni\",\n\t\"price\":997000,\n\t\"creation\": 1961,\n\t\"movement\":\"Arte pop\",\n\t\"material\": \"Collage\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/usd/12350",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"usd",
+						"12350"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/12350",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12350,\n\t\"title\":\"Juanito laguna lleva comida a su padre\",\n\t\"author\":\"Antonio Berni\",\n\t\"price\":997000,\n\t\"creation\": 1961,\n\t\"movement\":\"Arte pop\",\n\t\"material\": \"Collage\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/12350",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"12350"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadros",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12350,\n\t\"title\":\"Juanito laguna lleva comida a su padre\",\n\t\"author\":\"Antonio Berni\",\n\t\"price\":997000,\n\t\"creation\": 1961,\n\t\"movement\":\"Arte pop\",\n\t\"material\": \"Collage\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadros",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/eliminate/12348",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12350,\n\t\"title\":\"Juanito laguna lleva comida a su padre\",\n\t\"author\":\"Antonio Berni\",\n\t\"price\":997000,\n\t\"creation\": 1961,\n\t\"movement\":\"Arte pop\",\n\t\"material\": \"Collage\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/eliminate/12348",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"eliminate",
+						"12348"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadros",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12350,\n\t\"title\":\"Juanito laguna lleva comida a su padre\",\n\t\"author\":\"Antonio Berni\",\n\t\"price\":997000,\n\t\"creation\": 1961,\n\t\"movement\":\"Arte pop\",\n\t\"material\": \"Collage\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadros",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/modify",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12350,\n\t\"title\":\"Juanito laguna lleva comida a su padre\",\n\t\"author\":\"Antonio Berni\",\n\t\"price\":997000,\n\t\"creation\": 1961,\n\t\"movement\":\"Arte pop\",\n\t\"material\": \"Collage\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/modify",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"modify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/modify",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12350,\n\t\"title\":\"Juanito laguna lleva comida a su padre\",\n\t\"author\":\"Antonio Berni\",\n\t\"price\":997000,\n\t\"creation\": 1961,\n\t\"movement\":\"Arte pop\",\n\t\"material\": \"Collage\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/modify",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"modify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadros",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12352,\n\t\"title\":\"The great red dragon and the woman clothed with the sun\",\n\t\"author\":\"William Blake\",\n\t\"price\":6000000,\n\t\"creation\": 1805,\n\t\"movement\":\"Romanticismo\",\n\t\"material\": \"Pen and gray ink watercolor over graphite\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadros",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12352,\n\t\"title\":\"The great red dragon and the woman clothed with the sun\",\n\t\"author\":\"William Blake\",\n\t\"price\":6000000,\n\t\"creation\": 1805,\n\t\"movement\":\"Romanticismo\",\n\t\"material\": \"Pen and gray ink watercolor over graphite\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12351,\n\t\"title\":\"Nina con mascara de muerte\",\n\t\"author\":\"Frida Kahlo\",\n\t\"price\":2300900,\n\t\"creation\": 1938,\n\t\"movement\":\"Surrealista\",\n\t\"material\": \"Oil on tin plate\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12350,\n\t\"title\":\"Juanito laguna lleva comida a su padre\",\n\t\"author\":\"Antonio Berni\",\n\t\"price\":97000,\n\t\"creation\": 1961,\n\t\"movement\":\"Arte popo\",\n\t\"material\": \"Collage\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12349,\n\t\"title\":\"Free South Africa\",\n\t\"author\":\"Keith Haring\",\n\t\"price\":1000000,\n\t\"creation\": 1985,\n\t\"movement\":\"Arte contemporaneo\",\n\t\"material\": \"Litograph on paper\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12348,\n\t\"title\":\"The fifth plague of egypt\",\n\t\"author\":\"Joseph Mallord William Turner\",\n\t\"price\":9000000,\n\t\"creation\": 1800,\n\t\"movement\":\"Roma\",\n\t\"material\": \"Oil on Canvas\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12347,\n\t\"title\":\"The rucellai Madonna\",\n\t\"author\":\"Duccio\",\n\t\"price\":784000,\n\t\"creation\":1285,\n\t\"movement\":\"Arte gotico\",\n\t\"material\": \"Tempera on papel\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12346,\n\t\"title\":\"Numeri Innamorati\",\n\t\"author\":\"Giacono Balla\",\n\t\"price\":50000,\n\t\"creation\":1923,\n\t\"movement\":\"Futurismo\",\n\t\"material\": \"Oil on canvas\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadros",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12345,\n\t\"title\":\"Woman with a parasol\",\n\t\"author\":\"Gustave Caillebotte\",\n\t\"price\":90000,\n\t\"creation\":1877,\n\t\"movement\":\"Impresionismo\",\n\t\"material\": \"Oil on canvas\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadros",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadro/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":12345,\n\t\"title\":\"Woman with a parasol\",\n\t\"author\":\"Gustave Caillebotte\",\n\t\"price\":90000,\n\t\"creation\":1877,\n\t\"movement\":\"Impresionismo\",\n\t\"material\": \"Oil on canvas\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadro/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadro",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/cuadros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/cuadros",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cuadros"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
